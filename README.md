@@ -1,3 +1,4 @@
+# ProgrammingAssignment2
 ### Introduction
 
 This second programming assignment will require you to write an R
@@ -103,3 +104,27 @@ In order to complete this assignment, you must do the following:
 ### Grading
 
 This assignment will be graded via peer assessment.
+## Solution to this assignment
+soruce the file cachematrix.R
+(e.g)
+source(' ~/cachematrix.R')
+To run the function
+first set/initialiaze a matrix in a cache
+(e.g)
+ma <- makeCacheMatrix(matrix(1:4, 2, 2))
+(e.g)
+cacheSolve(ma)
+by doing this agagin we should get this from cache. (see example output below)
+### e.g with solution and output
+> ma <- makeCacheMatrix(matrix(1:4, 2, 2))
+> cacheSolve(ma)
+     [,1] [,2]
+     [1,]   -2  1.5
+     [2,]    1 -0.5
+> cacheSolve(ma)
+     getting cached data
+          [,1] [,2]
+	  [1,]   -2  1.5
+	  [2,]    1 -0.5
+> 
+
